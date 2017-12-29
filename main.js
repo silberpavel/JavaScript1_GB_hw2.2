@@ -10,7 +10,7 @@ class Text {
     }
   }
   
-  var text1 = new Text('Hello woooorld!!!', 2);
+  var text1 = new Text('Create object and get html text tag with size (ES6 examples)', 2);
   var newDiv = document.createElement("div");
   document.body.appendChild(newDiv);
   newDiv.innerHTML = text1.writeText();
